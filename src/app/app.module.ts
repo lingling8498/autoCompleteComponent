@@ -48,6 +48,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AutoCompleteComponentComponent } from './auto-complete-component/auto-complete-component.component';
+import { CheckboxConfigurableExampleComponent } from './checkbox-configurable-example/checkbox-configurable-example.component';
 
 @NgModule({
   exports: [
@@ -95,7 +96,8 @@ export class DemoMaterialModule {}
 @NgModule({
   declarations: [
     AppComponent,
-    AutoCompleteComponentComponent
+    AutoCompleteComponentComponent,
+    CheckboxConfigurableExampleComponent
   ],
     imports: [
     BrowserModule,
@@ -106,6 +108,7 @@ export class DemoMaterialModule {}
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
+  entryComponents: [CheckboxConfigurableExampleComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
