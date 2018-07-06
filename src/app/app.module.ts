@@ -49,6 +49,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AutoCompleteComponentComponent } from './auto-complete-component/auto-complete-component.component';
 import { CheckboxConfigurableExampleComponent } from './checkbox-configurable-example/checkbox-configurable-example.component';
+import { DatepickerOverviewExampleComponent } from './datepicker-overview-example/datepicker-overview-example.component';
+import { DatepickrStartViewExampleComponent } from './datepickr-start-view-example/datepickr-start-view-example.component';
+import { DatepickerValueExampleComponent } from './datepicker-value-example/datepicker-value-example.component';
+import { DatepickerMinMaxExampleComponent } from './datepicker-min-max-example/datepicker-min-max-example.component';
 
 @NgModule({
   exports: [
@@ -97,7 +101,11 @@ export class DemoMaterialModule {}
   declarations: [
     AppComponent,
     AutoCompleteComponentComponent,
-    CheckboxConfigurableExampleComponent
+    CheckboxConfigurableExampleComponent,
+    DatepickerOverviewExampleComponent,
+    DatepickrStartViewExampleComponent,
+    DatepickerValueExampleComponent,
+    DatepickerMinMaxExampleComponent
   ],
     imports: [
     BrowserModule,
@@ -108,7 +116,7 @@ export class DemoMaterialModule {}
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [CheckboxConfigurableExampleComponent],
+  entryComponents: [],
   providers: [],
   bootstrap: [AppComponent]
 })
