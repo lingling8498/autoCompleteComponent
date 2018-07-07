@@ -53,6 +53,10 @@ import { DatepickerOverviewExampleComponent } from './datepicker-overview-exampl
 import { DatepickrStartViewExampleComponent } from './datepickr-start-view-example/datepickr-start-view-example.component';
 import { DatepickerValueExampleComponent } from './datepicker-value-example/datepicker-value-example.component';
 import { DatepickerMinMaxExampleComponent } from './datepicker-min-max-example/datepicker-min-max-example.component';
+import { DatepickerFilterExampleComponent } from './datepicker-filter-example/datepicker-filter-example.component';
+import { DatepickerEventsExampleComponent } from './datepicker-events-example/datepicker-events-example.component';
+import { DatepickerDisabledExampleComponent } from './datepicker-disabled-example/datepicker-disabled-example.component';
+import { DatepickerTouchExampleComponent } from './datepicker-touch-example/datepicker-touch-example.component';
 
 @NgModule({
   exports: [
@@ -105,7 +109,11 @@ export class DemoMaterialModule {}
     DatepickerOverviewExampleComponent,
     DatepickrStartViewExampleComponent,
     DatepickerValueExampleComponent,
-    DatepickerMinMaxExampleComponent
+    DatepickerMinMaxExampleComponent,
+    DatepickerFilterExampleComponent,
+    DatepickerEventsExampleComponent,
+    DatepickerDisabledExampleComponent,
+    DatepickerTouchExampleComponent
   ],
     imports: [
     BrowserModule,
